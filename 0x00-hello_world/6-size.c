@@ -1,6 +1,14 @@
 #include <stdio.h>
 
 
+/**
+* main - Entry Point
+*
+* Description: C programme that prints
+* the size of various types on the computer it is  compiles and run on
+*
+* Return: returns (0)
+*/
 int main(void)
 
 {

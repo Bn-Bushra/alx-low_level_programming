@@ -27,7 +27,7 @@ int main(void)
 
 
 
-		if (n ==57)
+		if (n == 57)
 
 		{
 

@@ -4,9 +4,8 @@
 
 /**
 	* main - Entry point for the program
-
-  	* Takes no argument 
-  	*
+	* Takes no argument
+	*
 	* Description: Program that prints alphabets in lower case
 	* Return: program always returns (0)
   */

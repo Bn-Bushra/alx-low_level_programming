@@ -1,34 +1,60 @@
+#include <stdio.h>
+
 #include <stdlib.h>
-#include <stdion.h>
+
 #include <time.h>
 
+
+
 /**
-	*main - the entry point for the programme
-	* No argumetns taken (void)
-	*
-	* Description: Programme prints the last digit stored in n
-	* Return: Programme always return 0
-*/
+  * main - the Entry point for the program
+  * No arguments are taken
+  *
+  * Description: program prints the last digit stored in n
+  * Return: Program always return 0 (success)
+  */
+
 int main(void)
+
 {
+
 	int n;
+
 	int last_num;
 
+
+
 	srand(time(0));
+
 	n = rand() - RAND_MAX / 2;
+
 	last_num = n % 10;
 
+
+
 	if (last_num > 5)
+
 	{
+
 		printf("Last digit of %d is %d and is greater than 5\n", n, last_num);
+
 	}
+
 	else if (last_num == 0)
+
 	{
+
 		printf("Last digit of %d is %d and is 0\n", n, last_num);
+
 	}
+
 	else
+
 	{
-		printf("Last digit of %d and is less than 6 and not 0\n", n, last_num);
+
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last_num);
+
 	}
+
 	return (0);
 }

@@ -1,21 +1,13 @@
 #include <stdio.h>
-
 #include <stdlib.h>
 
 
 
 /**
-
   * main - entry point of the program
-
-  *
-
   * Takes no arguments
-
   *
-
   * Return: program always returns (0)
-
   */
 
 int main(void)

@@ -4,17 +4,11 @@
 
 
 /**
-
   * main - Entry point of the program
-
   * takes no arguments.
-
   *
-
   * Descriptoin: prints lowercase letters except q and e
-
   * Return: program always return (0)
-
   */
 
 int main(void)

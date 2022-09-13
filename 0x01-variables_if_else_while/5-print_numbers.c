@@ -3,14 +3,13 @@
 
 /**
 	* main - entry point of the programme
-	*
 	* Takes no arguments
-	* 
+	*
 	* Description: Prints from 0 to 9
 	*
-	* Retrun: programme always returns (0)
+	* Return: programme always returns (0)
 */
-int main(void) 
+int main(void)
 {
 	int i;
 

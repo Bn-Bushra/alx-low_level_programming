@@ -19,7 +19,6 @@ int main(void)
 	{
 		putchar(cl);
 	}
-	putchar('\n');
 	for (cu = 'A'; cu <= 'Z'; cu++)
 	{
 		putchar(cu);

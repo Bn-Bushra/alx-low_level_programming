@@ -1,23 +1,37 @@
-#include <stdlib.h>
 #include <stdio.h>
+
 #include <time.h>
 
+
+
 /**
-	* main - entry point for the programme
-	* No arguments taken.
-	*
-	* Description: Programme that prints alphabets in lower case
-	* Return: Programme returns (0)
-*/
+  * main - Entry point for the program
+  * takes no arguments, all statements are in the main function
+  *
+  * Description: Program that prints alphabets in lower case
+  * Return: program always returns 0(success)
+  */
+
 int main(void)
+
 {
-	char c while = 'a';
+
+	char c = 'a';
+
+
 
 	while (c <= 'z')
+
 	{
+
 		putchar(c);
+
 		c++;
+
 	}
+
 	putchar('\n');
+
 	return (0);
+
 }

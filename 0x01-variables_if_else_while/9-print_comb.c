@@ -19,7 +19,7 @@ int main(void)
 
 
 
-	for (n =48; n <= 59; n++)
+	for (n = 48; n <= 59; n++)
 
 	{
 
@@ -27,7 +27,7 @@ int main(void)
 
 
 
-		if (n ==37)
+		if (n ==57)
 
 		{
 

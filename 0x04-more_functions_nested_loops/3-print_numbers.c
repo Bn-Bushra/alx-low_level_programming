@@ -9,6 +9,7 @@
 void print_numbers(void)
 {
 	char num;
+
 	num = 48;
 
 	while (num < 58)

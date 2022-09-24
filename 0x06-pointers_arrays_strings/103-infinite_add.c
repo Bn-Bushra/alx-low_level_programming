@@ -38,7 +38,6 @@
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-
 	int i = 0, j = 0, k = 0;
 	int sum = 0;
 	int tens = 0;
@@ -46,21 +45,13 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	int swap = 0;
 
 	while (n1[i] != 0)/* A */
-
 		i++;
-
 	while (n2[j] != 0)
-
 		j++;
-
 	i--;/* C */
-
 	j--;
-
 	if (i > size_r || j > size_r)/* D */
-
 		return (0);
-
 	for ( ; k < size_r; i--, j--, k++)/* E */
 	{
 		sum = tens;
@@ -83,5 +74,5 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		r[k] = r[begin];
 		r[begin] = swap;
 	}
-	return (r);
+return (r);
 }

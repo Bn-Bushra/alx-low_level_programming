@@ -13,3 +13,43 @@
 2.
 
 ## External Links
+
+# Getting to know recursion
+
+## What is RECURSIOn?
+## Framework for a recursive function
+void recursion(void)
+{
+	//base case
+
+	//recursive case
+}
+
+Example
+int fact(int n)
+{
+	if ((n == 0) || (n == 1)) /* base case */
+	{
+		return 1;
+	}
+	else
+	{
+		return n * fact(n - 1);
+	}
+}
+The collatz conjecture
+int collatz(int n)
+{
+	if(n = 1)
+	{
+		return 1;
+	}
+	else if(n % 2 == 0)
+	{
+		return (n / 2);
+	}
+	else(n % 2 == 1)
+	{
+		return (3n + 1);
+	}
+}
